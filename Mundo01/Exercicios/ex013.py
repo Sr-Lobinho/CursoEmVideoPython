@@ -1,4 +1,4 @@
-salario = float(input("O seu salário: "))
+salario = float(input("O seu salário: R$"))
 aumento = salario*15/100
-novo_salario = salario + aumento
-print(f"Seu aumento foi de {aumento} reais\nNovo salário: {novo_salario}")
+#novo_salario = salario + aumento
+print(f"Seu aumento foi de R${aumento}\nSeu novo salário é R${salario + aumento}")
