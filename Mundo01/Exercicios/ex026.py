@@ -1,0 +1,2 @@
+frase = input("Digite uma frase: ").strip().lower()
+print(f"Nessa frase a letra 'a' aparece {frase.count("a")} vezes\nA sua primeira aparição é na posição {frase.find("a")+1}\nSua ultima aparição é na posição {frase.rfind("a")+1}")
